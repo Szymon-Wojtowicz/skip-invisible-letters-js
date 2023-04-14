@@ -40,7 +40,7 @@ For example, given a document which has the following table in its body:
 
 which, when displayed in a browser produces the following output:
 ```
-![alt tag](skip_invisible_letters.PNG)
+![skip_invisible_letters](https://user-images.githubusercontent.com/62600486/232043879-775ac92d-46c8-4ec9-9ff2-a932b507a5a9.PNG)
 ```
     
 your function should return "QAQO" since the letters "Y" and "M" are invisible.
