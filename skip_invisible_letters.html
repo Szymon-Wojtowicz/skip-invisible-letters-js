@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script>function solution() {
+    <title>Skip invisible letters</title>
+    <script>
+    function solution() {
+        
         const table = document.getElementsByTagName("table")[0]; // Get the table element
         const rows = table.getElementsByTagName("tr"); // Get all rows of the table
         let visibleLetters = ""; // Initialize an empty string to store visible letters
@@ -26,7 +28,8 @@
         }
 
         return visibleLetters;
-    }</script>
+    }
+    </script>
 </head>
 <body>
 <table>
